@@ -1,3 +1,11 @@
 title: DevInst
 description: DevInst - творческая площадка для публикации эстетичных образов
+repository: GroupDevInst/GroupDevInst.github.io
+author:        smirnov ilia
+url:           "https://GroupDevInst.github.io/"
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - "jekyll-github-metadata"
