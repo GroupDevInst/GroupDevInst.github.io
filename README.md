@@ -1,1 +1,1 @@
-# GroupDevInst.github.io
+# DevInst
