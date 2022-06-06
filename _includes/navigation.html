@@ -5,17 +5,14 @@
           Главная
         </div>
       </a>
-    <a href="#">
-      <div class="btn" {% if page.url == "/" %}style="color: #b5e853;"{% endif %}>
-        Разделы 
+    <a href="/Posts">
+      <div class="btn" {% if page.url == "/Posts" %}style="color: #b5e853;"{% endif %}>
+        Публикации 
       </div>
     </a>
-    <!-- <a href="#" target="_blank">
-      <h2>Профиль в github</h2>
-    </a> -->
-    <a href="#" class="btn btn-github" target="_blank">
+    <a href="/Group" class="btn" target="_blank">
         <span class="icon"></span>
-        Профиль в GitHub
+        Группа
     </a>
   </section>
   </nav>
