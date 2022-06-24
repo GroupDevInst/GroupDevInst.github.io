@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+    {% include google-analytics %}
+    {% include yandex-metrika %}
+    
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+    
+    <style>
+* {
+    box-sizing: border-box;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+</style>
+    
+  </head>
+  <body>
+   
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>     
+      {% include navigation.html %}     
+    </header>
+    
+    <main id="content" class="main-content" role="main">
+      
+      <!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="photo1_1.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="photo1_2.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="photo1_3.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="photo2_1.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="photo2_2.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="photo2_3.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <img id="expandedImg" style="width:100% ">
+  <div id="imgtext"></div>
+</div>
+      <footer class="site-footer"></footer>
+    </main>
+    
+    <script>
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+</script>
+
+    
+  </body>
+</html>
