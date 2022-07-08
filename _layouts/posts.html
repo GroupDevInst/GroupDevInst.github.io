@@ -13,6 +13,9 @@
   <meta name="theme-color" content="#157878">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
   {% include head-custom.html %}
 
   <style>
@@ -194,6 +197,7 @@
       expandImg.src = imgs.src;
       imgText.innerHTML = imgs.alt;
       expandImg.parentElement.style.display = "block";
+      $('html, body').animate({scrollTop:$(document).height()}, 'slow');
     }
   </script>
 
