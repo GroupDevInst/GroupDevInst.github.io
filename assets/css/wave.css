@@ -5,13 +5,12 @@
 }
 
 
-
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
 
-body {
+main {
   font-family: var(--body-font);
   background-image: url(https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg);
   background-size: cover;
@@ -25,7 +24,7 @@ body {
   height: 100vh;
 }
 @media screen and (max-width: 480px) {
-  body {
+  main {
     padding: 0.8em;
   }
 }
@@ -49,8 +48,8 @@ img {
 }
 
 
-body.light-mode:before,
-body.light-mode .video-bg:before {
+main.light-mode:before,
+main.light-mode .video-bg:before {
   content: "";
   position: absolute;
   left: 0;
