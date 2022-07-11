@@ -11,11 +11,6 @@ body {
   z-index: auto;
 }
 
-main h4 {
- color: #04d7c4;
- margin-top: 10px;
-}
-
 .loader span {
   color: #faebd7;
   text-shadow: 0 0 0 #faebd7;
