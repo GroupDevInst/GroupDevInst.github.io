@@ -1,4 +1,4 @@
-main {
+body {
   background-color: #1e1f26;
 }
 
@@ -11,7 +11,7 @@ main {
   z-index: auto;
 }
 
-h4 {
+.background h4 {
   mix-blend-mode: overlay;
 }
 
