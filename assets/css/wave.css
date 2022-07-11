@@ -11,14 +11,8 @@ body {
   z-index: auto;
 }
 
-/* .background h4 {
-  mix-blend-mode: overlay;
-  color: #ffffff;
-} */
-
-h4 {
- color: white;
- text-color: white;
+main h4 {
+ color: #04d7c4;
  margin-top: 10px;
 }
 
