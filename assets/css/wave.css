@@ -11,11 +11,14 @@ body {
   z-index: auto;
 }
 
-.background h4 {
+/* .background h4 {
   mix-blend-mode: overlay;
   color: #ffffff;
-}
+} */
 
+h4 {
+ color: #155b95
+}
 .loader span {
   color: #faebd7;
   text-shadow: 0 0 0 #faebd7;
