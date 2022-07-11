@@ -13,7 +13,7 @@ body {
 
 .background h4 {
   mix-blend-mode: overlay;
-  text-color: #108179;
+  color: #ffffff;
 }
 
 .loader span {
