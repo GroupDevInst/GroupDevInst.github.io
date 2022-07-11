@@ -11,6 +11,10 @@ main {
   z-index: auto;
 }
 
+h4 {
+  mix-blend-mode: overlay;
+}
+
 .loader span {
   color: #faebd7;
   text-shadow: 0 0 0 #faebd7;
