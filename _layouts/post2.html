@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8">
+
+  {% include google-analytics %}
+  {% include yandex-metrika %}
+
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+ 
+  {% include head-custom.html %}
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+  }
+
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+
+  .column img:hover {
+    opacity: 1;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  </style>
+
+</head>
+<body>
+
+  <header class="page-header" role="banner">
+    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>     
+    {% include navigation.html %}     
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    
+    <div class="row">
+      <div class="column">
+        <img src="{{ '/images/photo1_1.jpg' }}" alt="Inst: mellkina0" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo1_2.jpg' }}" alt="Inst: mellkina0" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo1_3.jpg' }}" alt="Inst: mellkina0" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+   
+    <div class="row">
+      <div class="column">
+        <img src="{{ '/images/photo2_1.jpg' }}" alt="Inst: baluevakris" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo2_2.jpg' }}" alt="Inst: baluevakris" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo2_3.jpg' }}" alt="Inst: baluevakris" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    
+    <div class="row">
+     <div class="column">
+        <img src="{{ '/images/photo3_1.jpg' }}" alt="Inst: aliquid.creatum" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo3_2.jpg' }}" alt="Inst: aliquid.creatum" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo3_3.jpg' }}" alt="Inst: aliquid.creatum" style="width:100%" onclick="myFunction(this);">
+      </div>
+   </div>
+   
+    <div class="row">
+     <div class="column">
+        <img src="{{ '/images/photo4_1.jpg' }}" alt="Inst: alin_check" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo4_2.jpg' }}" alt="Inst: alin_check" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo4_3.jpg' }}" alt="Inst: alin_check" style="width:100%" onclick="myFunction(this);">
+      </div>
+    
+    <div class="row">
+      <div class="column">
+        <img src="{{ '/images/photo5_1.jpg' }}" alt="Inst: alena_n03" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo5_2.jpg' }}" alt="Inst: alena_n03" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo5_3.jpg' }}" alt="Inst: alena_n03" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="column">
+        <img src="{{ '/images/photo6_1.jpg' }}" alt="Inst: endlesscure" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo6_2.jpg' }}" alt="Inst: endlesscure" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo6_3.jpg' }}" alt="Inst: endlesscure" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="column">
+        <img src="{{ '/images/photo7_1.jpg' }}" alt="Inst: evvoliv" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo7_2.jpg' }}" alt="Inst: evvoliv" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo7_3.jpg' }}" alt="Inst: evvoliv" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="column">
+        <img src="{{ '/images/photo8_1.jpg' }}" alt="Inst: _velfey_" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo8_2.jpg' }}" alt="Inst: _velfey_" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo8_3.jpg' }}" alt="Inst: _velfey_" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="column">
+        <img src="{{ '/images/photo9_1.jpg' }}" alt="Inst: endlesscure" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo9_2.jpg' }}" alt="Inst: endlesscure" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="{{ '/images/photo9_3.jpg' }}" alt="Inst: endlesscure" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    
+    <div class="container">
+      <img id="expandedImg" style="width:100% ">
+      <div id="imgtext"></div>
+    </div>   
+    
+  </main>
+
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+
+      expandImg.scrollIntoView({ 
+        block: 'center', 
+        behavior: 'smooth', 
+      });
+
+    }
+  </script>
+
+
+</body>
+</html>
