@@ -27,7 +27,7 @@
 
 /* 7 */
 .btn-7 {
-background: linear-gradient(0deg, rgba(21, 100, 140, 1) 0%, rgba(17, 24, 142, 1) 100%);
+background: linear-gradient(0deg, rgba(21, 119, 121, 1) 0%, rgba(17, 43, 123, 1) 100%);
   line-height: 42px;
   padding: 0;
   border: none;
@@ -44,7 +44,7 @@ background: linear-gradient(0deg, rgba(21, 100, 140, 1) 0%, rgba(17, 24, 142, 1)
   content: "";
   right: 0;
   bottom: 0;
-  background: rgba(17, 24, 142, 1);
+  background: rgba(17, 43, 123, 1);
   box-shadow:
    -7px -7px 20px 0px rgba(255,255,255,.9),
    -4px -4px 5px 0px rgba(255,255,255,.9),
@@ -61,7 +61,7 @@ background: linear-gradient(0deg, rgba(21, 100, 140, 1) 0%, rgba(17, 24, 142, 1)
   height: 2px;
 }
 .btn-7:hover{
-  color: rgba(17, 24, 142, 1);
+  color: rgba(21, 119, 121, 1);
   background: transparent;
 }
 .btn-7:hover:before {
@@ -76,7 +76,7 @@ background: linear-gradient(0deg, rgba(21, 100, 140, 1) 0%, rgba(17, 24, 142, 1)
   content: "";
   left: 0;
   top: 0;
-  background: rgba(17, 24, 142, 1);
+  background: rgba(21, 119, 121, 1);
   box-shadow:
    -7px -7px 20px 0px rgba(255,255,255,.9),
    -4px -4px 5px 0px rgba(255,255,255,.9),
