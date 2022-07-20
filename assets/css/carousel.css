@@ -26,11 +26,11 @@ body {
   }
 }
 
-#image {
+/* #image {
   max-width: 100%;
   animation: fade 5s linear infinite;
   animation-delay: 2.5s;
-}
+} */
 
 @keyframes tostart {
   75% {
