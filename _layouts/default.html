@@ -105,9 +105,23 @@
      <div class="carousel__snapper"></div>
       <a href="#carousel__slide4"
          class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide5"
+         class="carousel__next">Go to first slide</a>
+    </li>
+    
+    <li id="carousel__slide6"
+        tabindex="0"
+        class="carousel__slide">
+
+      <img class="images" src="{{ '/images/photo24_6.jpg' }}" width="100%">
+     
+     <div class="carousel__snapper"></div>
+      <a href="#carousel__slide5"
+         class="carousel__prev">Go to previous slide</a>
       <a href="#carousel__slide1"
          class="carousel__next">Go to first slide</a>
     </li>
+    
   </ol>
   
   <aside class="carousel__navigation">
@@ -128,6 +142,14 @@
         <a href="#carousel__slide4"
            class="carousel__navigation-button">Go to slide 4</a>
       </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide5"
+           class="carousel__navigation-button">Go to slide 5</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide6"
+           class="carousel__navigation-button">Go to slide 6</a>
+      </li>
     </ol>
   </aside>
 </section>
@@ -138,7 +160,8 @@
     '#carousel__slide2',
     '#carousel__slide3',
     '#carousel__slide4',
-    '#carousel__slide5'
+    '#carousel__slide5',
+    '#carousel__slide6'
 ];
 
 const delay = 4000; /* 1 миллисекунда*/
