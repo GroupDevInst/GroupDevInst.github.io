@@ -351,6 +351,19 @@ a {
   }
 }
 
+.btn .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 1px 8px 0 0;
+  float: left;
+}
+
+.btn-vk .icon {
+  opacity: 0.6;
+  background: url("../images/vk.png") 0 0 no-repeat;
+}
+
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
