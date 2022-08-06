@@ -351,15 +351,15 @@ a {
   }
 }
 
-.btn .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin: 1px 8px 0 0;
-  float: left;
-}
+// .btn {
+//   display: inline-block;
+//   width: 16px;
+//   height: 16px;
+//   margin: 1px 8px 0 0;
+//   float: left;
+// }
 
-.btn-vk .icon {
+.btn-vk {
   opacity: 0.6;
   background: url("/images/vk.png") 0 0 no-repeat;
 }
