@@ -2,7 +2,7 @@ body {
   background-color: #1e1f26;
 }
 
-.background {
+canvas .background {
   width: 100%;
   height: 40vh;
   top: 0;
