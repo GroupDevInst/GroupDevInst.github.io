@@ -378,7 +378,7 @@ a {
   color: $blockquote-text-color;
 }
 
-@media only screen and (max-width: 42em) {
+@media only screen and (max-width: 500px) {
     .site-footer1 {
         display: none;
     }
