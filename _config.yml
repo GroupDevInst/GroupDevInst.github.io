@@ -1,7 +1,6 @@
 title: DevInst
 description: DevInst - площадка для публикаций фотографий
 repository: GroupDevInst/GroupDevInst.github.io
-author:        samoilov ilia
 url:           "https://GroupDevInst.github.io/"
 theme: jekyll-theme-cayman
 plugins:
