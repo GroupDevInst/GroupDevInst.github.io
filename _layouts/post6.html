@@ -22,12 +22,19 @@
 </head>
 <body>
 
-  <header class="page-header" role="banner">
-    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>     
-    {% include navigation.html %}     
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  </header>
+   <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>     
+      
+     <a href="/" class="btn" {% if page.url == "/" %}style="color: #b5e853;"{% endif %}>
+          Home
+      </a>
+    <a href="/post1.html" class="btn" {% if page.url == "/post1.html" or page.url == "/post2.html" or page.url == "/post3.html" or page.url == "/post4.html" or page.url == "/post5.html" or page.url == "/post6.html" %}style="color: #b5e853;"{% endif %}>
+        Publications 
+    </a>
+    <a href="https://vk.com/dev_inst" class="btn" target="_blank">Group</a>
+      
+     </header>
 
   <main id="content" class="main-content" role="main">
     
