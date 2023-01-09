@@ -2,7 +2,6 @@
 layout: default
 ---
 
-### История DevInst
+### About DevInst
         
-##### Группа берет свое начало в 2022 году по задумке нескольких творческих людей, вдохновленных тематикой фотографий и красивых эстетичных образов. С течением времени группа принимала более четкую форму, которая была нацелена на продвижение творчества и социальных сетей.
-
+##### The group originates in 2022 from the idea of several creative people inspired by the theme of photography and beautiful aesthetic images. As time went on, the group took on a more distinct form that was aimed at promoting creativity and social media.
