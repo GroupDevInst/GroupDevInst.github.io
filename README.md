@@ -1,3 +1,3 @@
 # [DevInst](https://groupdevinst.github.io/)
 
-Публикации фотографий
+Photo publications
